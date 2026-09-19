@@ -1,7 +1,5 @@
 # PT Semesta Olah Lestari Website
 
-This package contains the complete static website created from the PT Semesta Olah Lestari company profile.
-
 The website includes complete Bahasa Indonesia, English, and Simplified Chinese translations. Visitors can switch languages from the header, and their selection is remembered on the same device.
 
 ## Files
