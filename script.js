@@ -41,6 +41,7 @@ const translations = {
     "Outsole kualitas premium dengan material pilihan diproduksi setiap harinya.": "Premium outsoles, produced daily from carefully selected materials.",
     "Foxing": "Foxing Strips",
     "Strip karet pelapis sisi sepatu": "Rubber sidewall strips",
+    "Contoh aplikasi foxing · foto stok": "Foxing application example · stock photo",
     "Diproduksi dari material karet pilihan yang disesuaikan dengan permintaan klien.": "Made from selected rubber to your specifications.",
     "Rubber Tile": "Rubber Tiles",
     "Matras tebal bertekstur lembut yang ramah lingkungan.": "Thick, soft-textured rubber tiles made with environmentally conscious materials.",
@@ -95,7 +96,7 @@ const translations = {
     "besar bersama kami.": "your next product.",
     "Ceritakan kebutuhan produk Anda. Tim SOL siap membantu menemukan solusi yang tepat.": "Tell us what you’re developing. We’ll help you find the right materials and production approach.",
     "Email": "Email",
-    "Telepon": "Phone",
+    "Chat melalui WhatsApp": "Chat on WhatsApp",
     "Lokasi": "Visit Us",
     "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia": "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia",
     "Industri Alas Kaki untuk Keperluan Sehari-hari": "Footwear Manufacturing · Tangerang, Indonesia",
@@ -143,6 +144,7 @@ const translations = {
     "Outsole kualitas premium dengan material pilihan diproduksi setiap harinya.": "精选材料，专注生产优质鞋底。",
     "Foxing": "橡胶围条",
     "Strip karet pelapis sisi sepatu": "鞋侧包边橡胶条",
+    "Contoh aplikasi foxing · foto stok": "围条应用示例 · 素材照片",
     "Diproduksi dari material karet pilihan yang disesuaikan dengan permintaan klien.": "采用精选橡胶，按客户要求定制。",
     "Rubber Tile": "橡胶地砖",
     "Matras tebal bertekstur lembut yang ramah lingkungan.": "厚实柔软的橡胶地砖，注重材料环保性。",
@@ -197,7 +199,7 @@ const translations = {
     "besar bersama kami.": "一起做好产品。",
     "Ceritakan kebutuhan produk Anda. Tim SOL siap membantu menemukan solusi yang tepat.": "欢迎与我们分享产品需求。SOL 团队将协助您选择合适的材料与生产方案。",
     "Email": "电子邮箱",
-    "Telepon": "电话",
+    "Chat melalui WhatsApp": "WhatsApp 咨询",
     "Lokasi": "工厂地址",
     "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia": "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia",
     "Industri Alas Kaki untuk Keperluan Sehari-hari": "鞋材制造 · 印度尼西亚丹格朗",
@@ -268,18 +270,21 @@ const imageAlt = {
   id: {
     entrance: 'Pintu masuk pabrik PT Semesta Olah Lestari dengan gerbang biru',
     outsole: 'Sepasang outsole merah muda dan putih dengan pola tapak terlihat jelas',
+    foxing: 'Foto stok sepatu kanvas yang memperlihatkan strip foxing karet putih dengan garis hitam di sepanjang sisi sepatu',
     tile: 'Rubber tile kuning dengan tekstur permukaan dan ketebalan terlihat jelas',
     operator: 'Operator SOL melepas outsole dari cetakan mesin press'
   },
   en: {
     entrance: 'Blue entrance gate at the PT Semesta Olah Lestari factory',
     outsole: 'A pair of pink and white outsoles showing the full tread pattern',
+    foxing: 'Stock photo of a canvas shoe showing the white rubber foxing strip with a black stripe along its side',
     tile: 'A yellow rubber tile showing its textured surface and thickness',
     operator: 'A SOL operator removing an outsole from a moulding press'
   },
   zh: {
     entrance: 'PT Semesta Olah Lestari 工厂的蓝色入口大门',
     outsole: '一对粉白色鞋底，完整展示鞋底形状与纹路',
+    foxing: '帆布鞋素材照片，展示沿鞋侧包边的白色橡胶围条及黑色装饰线',
     tile: '黄色橡胶地砖，清晰展示表面纹理与厚度',
     operator: 'SOL 操作人员从压模机中取出成型鞋底'
   }
