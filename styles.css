@@ -15,6 +15,8 @@ body{font-family:Manrope,'Noto Sans SC',Arial,sans-serif}.site-header nav{gap:28
 
 /* Company photographs: keep complete product shapes visible, with copy below. */
 .factory-location{margin:40px 0 0}
+.contact-location{grid-template-columns:minmax(0,1fr) auto;column-gap:16px}
+.contact-item .contact-address{min-width:0;font-size:1rem;font-weight:600;line-height:1.7;overflow-wrap:anywhere}
 .factory-location img{width:100%;height:auto;display:block}
 .factory-location figcaption{margin-top:12px;color:var(--muted);font-size:.875rem}
 .product-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);grid-template-rows:auto auto;align-items:stretch}
