@@ -29,7 +29,11 @@ body{font-family:Manrope,'Noto Sans SC',Arial,sans-serif}.site-header nav{gap:28
 .product-card>div{position:static;padding:26px 28px}
 .product-card p{font-size:1rem;line-height:1.6}
 .product-card .product-kind{color:#73ddf6;margin:8px 0 16px}
-.product-card-text{justify-content:center}
+.product-example{margin:0;background:#f3f5f6}
+.product-example figcaption{padding:12px 18px 16px;color:#435469;font-size:.875rem;line-height:1.5}
+.product-example figcaption span{display:block;color:inherit;font-size:inherit}
+.product-example figcaption a{color:#0758a6;text-decoration:underline;text-underline-offset:3px}
+.product-example figcaption a:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
 .process-visual img{height:auto;max-height:720px;object-fit:contain}
 .process-visual .image-note{position:static;padding:16px 0;font-size:.875rem}
 @media(max-width:900px){
