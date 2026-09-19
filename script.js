@@ -97,7 +97,7 @@ const translations = {
     "Email": "Email",
     "Telepon": "Phone",
     "Lokasi": "Visit Us",
-    "Rajeg, Kabupaten Tangerang": "Rajeg, Tangerang Regency",
+    "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia": "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia",
     "Industri Alas Kaki untuk Keperluan Sehari-hari": "Footwear Manufacturing · Tangerang, Indonesia",
     "Kembali ke atas ↑": "Back to top ↑"
   },
@@ -199,7 +199,7 @@ const translations = {
     "Email": "电子邮箱",
     "Telepon": "电话",
     "Lokasi": "工厂地址",
-    "Rajeg, Kabupaten Tangerang": "印度尼西亚丹格朗县 Rajeg",
+    "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia": "Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupaten Tangerang, Banten 15540, Indonesia",
     "Industri Alas Kaki untuk Keperluan Sehari-hari": "鞋材制造 · 印度尼西亚丹格朗",
     "Kembali ke atas ↑": "返回顶部 ↑"
   }
