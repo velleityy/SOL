@@ -87,8 +87,8 @@ Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupa
 The Indonesian postal address is intentionally kept unchanged across all three language versions to make mapping and directions more reliable.
 
 **WhatsApp**  
-(021) 59350530  
-`https://wa.me/622159350530`
++62 813-8345-6569 
+`https://wa.me/6281383456569`
 
 The site uses WhatsApp instead of a separate phone-call contact option. Before public launch, confirm that this number is active on WhatsApp or WhatsApp Business so visitors can successfully start a chat.
 
