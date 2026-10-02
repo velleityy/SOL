@@ -2,6 +2,7 @@ const translations = {
   "en": {
     "Tentang": "About",
     "Produk": "Products",
+    "Grup": "Group",
     "Proses": "Production",
     "Klien": "Clients",
     "Kualitas": "Quality",
@@ -57,6 +58,17 @@ const translations = {
     "Trimming & Packing": "Trimming & Packing",
     "Delivery": "Delivery",
     "Klien Kami": "Our Clients",
+    "Bagian dari Santo Rubber Group": "Part of Santo Rubber Group",
+    "Kapabilitas Grup": "Group Capability",
+    "Didukung oleh pengalaman manufaktur karet selama lebih dari 30 tahun.": "Backed by 30+ years of rubber manufacturing experience.",
+    "PT Semesta Olah Lestari merupakan bagian dari Santo Rubber Group, grup manufaktur karet Indonesia dengan pengalaman lebih dari 30 tahun, beberapa fasilitas produksi, serta ISO 9001:2015.": "PT Semesta Olah Lestari is part of Santo Rubber Group, an Indonesian rubber manufacturing group with more than 30 years of industry experience, multiple production facilities and ISO 9001:2015.",
+    "Kapabilitas grup mencakup pengembangan compound karet, produk karet custom, komponen alas kaki, produk marine dan industrial, aplikasi karet daur ulang, serta pengembangan OEM.": "Across the group, capabilities span rubber compound development, custom rubber products, footwear components, marine and industrial products, recycled rubber applications and OEM development.",
+    "Kunjungi Santo Rubber Group": "Explore Santo Rubber Group",
+    "Tahun pengalaman grup": "Years of group experience",
+    "Beberapa": "Multiple",
+    "Fasilitas produksi": "Production facilities",
+    "Kapabilitas terintegrasi": "Integrated capability",
+    "Standar Kualitas": "Quality Standards",
     "Telah Dipercaya oleh": "Trusted by",
     "15++ Brand Ternama": "15+ brands",
     "And many more...": "And many more.",
@@ -104,6 +116,7 @@ const translations = {
   "zh": {
     "Tentang": "关于我们",
     "Produk": "产品",
+    "Grup": "集团",
     "Proses": "生产流程",
     "Klien": "合作品牌",
     "Kualitas": "品质管理",
@@ -159,6 +172,17 @@ const translations = {
     "Trimming & Packing": "修边与包装",
     "Delivery": "发货",
     "Klien Kami": "合作品牌",
+    "Bagian dari Santo Rubber Group": "Santo Rubber Group 旗下企业",
+    "Kapabilitas Grup": "集团能力",
+    "Didukung oleh pengalaman manufaktur karet selama lebih dari 30 tahun.": "依托 30 多年的橡胶制造经验。",
+    "PT Semesta Olah Lestari merupakan bagian dari Santo Rubber Group, grup manufaktur karet Indonesia dengan pengalaman lebih dari 30 tahun, beberapa fasilitas produksi, serta ISO 9001:2015.": "PT Semesta Olah Lestari 是 Santo Rubber Group 旗下企业。集团在印度尼西亚拥有 30 多年橡胶制造经验、多处生产设施，并具备 ISO 9001:2015 质量体系基础。",
+    "Kapabilitas grup mencakup pengembangan compound karet, produk karet custom, komponen alas kaki, produk marine dan industrial, aplikasi karet daur ulang, serta pengembangan OEM.": "集团能力涵盖橡胶配方开发、定制橡胶制品、鞋材部件、船舶与工业橡胶、再生橡胶应用以及 OEM 产品开发。",
+    "Kunjungi Santo Rubber Group": "了解 Santo Rubber Group",
+    "Tahun pengalaman grup": "集团行业经验",
+    "Beberapa": "多处",
+    "Fasilitas produksi": "生产设施",
+    "Kapabilitas terintegrasi": "一体化能力",
+    "Standar Kualitas": "质量标准",
     "Telah Dipercaya oleh": "值得信赖的制造伙伴",
     "15++ Brand Ternama": "15+ 品牌选择 SOL",
     "And many more...": "还有更多合作品牌。",
@@ -240,7 +264,7 @@ const metadata = {
     factory: 'Lini produksi PT Semesta Olah Lestari', summary: 'Ringkasan perusahaan',
     clients: 'Daftar klien PT Semesta Olah Lestari',
     previous: 'Logo sebelumnya', next: 'Logo berikutnya',
-    quality: 'Protokol quality control'
+    quality: 'Protokol quality control', group: 'Ringkasan Santo Rubber Group'
   },
   en: {
     title: 'PT Semesta Olah Lestari | Outsoles & Rubber Components',
@@ -250,7 +274,7 @@ const metadata = {
     factory: 'PT Semesta Olah Lestari production line', summary: 'SOL at a glance',
     clients: 'PT Semesta Olah Lestari client logos',
     previous: 'Previous logos', next: 'Next logos',
-    quality: 'Three-stage quality control process'
+    quality: 'Three-stage quality control process', group: 'Santo Rubber Group at a glance'
   },
   zh: {
     title: 'PT Semesta Olah Lestari | 鞋底、橡胶围条与地砖制造',
@@ -260,7 +284,7 @@ const metadata = {
     factory: 'PT Semesta Olah Lestari 生产线', summary: 'SOL 概览',
     clients: 'PT Semesta Olah Lestari 合作品牌标志',
     previous: '查看上一组标志', next: '查看下一组标志',
-    quality: '三个阶段的质量管控流程'
+    quality: '三个阶段的质量管控流程', group: 'Santo Rubber Group 概览'
   }
 };
 
@@ -315,7 +339,8 @@ function setLanguage(lang) {
     '.logo-carousel': meta.clients,
     '.carousel-prev': meta.previous,
     '.carousel-next': meta.next,
-    '.qc-flow': meta.quality
+    '.qc-flow': meta.quality,
+    '.group-stats': meta.group
   };
   Object.entries(labels).forEach(([selector, label]) => {
     document.querySelector(selector).setAttribute('aria-label', label);
@@ -336,8 +361,8 @@ function setLanguage(lang) {
 document.querySelectorAll('.language-switcher button').forEach(btn => {
   btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
 });
-let savedLanguage = 'id';
-try { savedLanguage = localStorage.getItem('sol-language') || 'id'; } catch {}
+let savedLanguage = 'en';
+try { savedLanguage = localStorage.getItem('sol-language') || 'en'; } catch {}
 setLanguage(savedLanguage);
 
 const carousel = document.querySelector('.logo-carousel');
