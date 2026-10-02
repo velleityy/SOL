@@ -43,3 +43,19 @@ body{font-family:Manrope,'Noto Sans SC',Arial,sans-serif}.site-header nav{gap:28
   .product-card.large img{height:clamp(330px,100vw,500px)}
   .factory-location{margin-top:28px}
 }
+
+
+/* Buyer-first Santo Rubber Group credibility section */
+.site-header nav{gap:20px}
+.group-section{background:#fff}
+.group-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:9vw;align-items:start}
+.group-copy h2{font-size:clamp(2.8rem,5vw,5.2rem);margin:0;max-width:900px}
+.group-details{padding-top:6px}
+.group-details p{color:var(--muted);margin:0 0 22px;font-size:1rem}
+.group-stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:80px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.group-stats div{padding:32px 34px;border-right:1px solid var(--line)}
+.group-stats div:last-child{border-right:0}
+.group-stats strong{display:block;font-family:'Plus Jakarta Sans','Noto Sans SC',sans-serif;font-size:clamp(1.7rem,2.6vw,2.5rem);line-height:1.2;color:var(--blue)}
+.group-stats span{display:block;margin-top:9px;color:var(--muted);font-size:.82rem;font-weight:700}
+@media(max-width:1100px){.site-header nav{gap:14px;font-size:.8rem}.nav-cta{padding:11px 14px}.language-switcher{padding-left:10px}}
+@media(max-width:900px){.group-grid{grid-template-columns:1fr;gap:34px}.group-stats{grid-template-columns:1fr;margin-top:55px}.group-stats div{border-right:0;border-bottom:1px solid var(--line)}.group-stats div:last-child{border-bottom:0}}
