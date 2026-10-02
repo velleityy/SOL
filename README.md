@@ -6,10 +6,13 @@ The site presents SOL's company profile, products, production capabilities, qual
 
 ## Features
 
-- **Three languages:** Bahasa Indonesia, English, and Simplified Chinese
+- **Three languages:** English, Bahasa Indonesia, and Simplified Chinese
+- **English-first experience:** English loads by default for new visitors; a visitor’s language choice is remembered locally
 - Audience-specific English and Chinese copy rather than literal word-for-word translations
 - Responsive desktop, tablet, and mobile layouts
+- Buyer-first page order that highlights **Products** and **Clients** immediately after the hero
 - Product showcase for **Outsole, Foxing, and Rubber Tile**
+- Dedicated **Santo Rubber Group** credibility section with group capabilities and website link
 - Production-process and quality-control sections
 - Client-logo carousel
 - Factory and production photography
@@ -55,11 +58,30 @@ The website can be deployed directly to any static hosting service, including:
 
 For GitHub Pages, upload the contents of this project folder to the repository used for the site. Keep the folder structure intact so all local assets resolve correctly.
 
+## Page Order
+
+The main page is intentionally arranged around a prospective buyer’s questions:
+
+1. Hero / value proposition
+2. Products
+3. Clients
+4. Santo Rubber Group
+5. About SOL
+6. Production
+7. Quality
+8. Business impact
+9. Founder
+10. Contact
+
 ## Editing Content
+
+### Language behavior
+
+The Indonesian source copy is stored in `index.html`, while English and Simplified Chinese adaptations are stored in `script.js`. English is the default language for first-time visitors. If a visitor chooses Indonesian or Chinese, the selection is saved in local storage for future visits.
 
 ### Bahasa Indonesia
 
-The main Indonesian page content is stored in `index.html`.
+The main Indonesian source content is stored in `index.html`.
 
 ### English and Simplified Chinese
 
@@ -87,8 +109,8 @@ Jl. Raya Rajeg-Mauk No.8, RT.02/RW.07, kelurahan Rajeg Mulya, Kec. Rajeg, Kabupa
 The Indonesian postal address is intentionally kept unchanged across all three language versions to make mapping and directions more reliable.
 
 **WhatsApp**  
-+62 813-8345-6569 
-`https://wa.me/6281383456569`
+(021) 59350530  
+`https://wa.me/622159350530`
 
 The site uses WhatsApp instead of a separate phone-call contact option. Before public launch, confirm that this number is active on WhatsApp or WhatsApp Business so visitors can successfully start a chat.
 
